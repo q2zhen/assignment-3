@@ -1,1 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+
+    <style>
+        /* —— 全站柔色主题 —— */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(180deg, #f4f8fc, #dce7f3); /* 雾霾蓝 + 奶油白渐变 */
+            color: #2e3a45;
+        }
+
+        /* —— 1200px 中心容器 —— */
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+            padding-top: 40px;
+        }
+
+        /* —— 导航栏 —— */
+        header {
+            background: linear-gradient(90deg, #dce2dd, #c9d5d0); /* 豆沙绿柔色渐变 */
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #c7cec8;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #2e3a45;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #6a8f89;
+        }
+
+        /* —— 标题 —— */
+        h1 {
+            font-size: 36px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        /* —— 卡片样式 —— */
+        .card {
+            background: #ffffffcc; /* 白色加轻微透明 */
+            padding: 30px;
+            border-radius: 18px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+            border-left: 6px solid #b7cfc7; /* 柔绿色边框 */
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #3d4f57;
+        }
+
+        /* —— 表格（作业要求） —— */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+
+        table, td, th {
+            border: 1px solid #cbd5df;
+        }
+
+        td, th {
+            padding: 10px 12px;
+        }
+
+        th {
+            background: #e8f0f4;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- —— 导航栏 —— -->
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- —— 页面内容 —— -->
+    <div class="container">
+        
+        <h1>About Me</h1>
+
+        <div class="card">
+            <h2>Who I Am</h2>
+            <p>
+                Hi! I'm [Your Name], and this is the personal website I designed for my course project.  
+                I enjoy creating clean and minimalistic digital designs, exploring technology, and building simple but elegant websites.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>My Interests</h2>
+            <p>Here are a few areas I'm passionate about:</p>
+            <ul>
+                <li>🎨 Art & Aesthetics</li>
+                <li>💻 Web Development</li>
+                <li>📚 Reading & Learning</li>
+                <li>🌿 Nature & Photography</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>More About Me</h2>
+            <p>Some quick facts:</p>
+
+            <!-- 作业要求：表格 -->
+            <table>
+                <tr>
+                    <th>Category</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td>Program</td>
+                    <td>[Your Program / Major]</td>
+                </tr>
+                <tr>
+                    <td>Hobbies</td>
+                    <td>Drawing, web design, reading, exploring new ideas</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><a href="mailto:yourname@uwaterloo.ca">yourname@uwaterloo.ca</a></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+</html>
 
