@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Website</title>
+  <style>
+    /* Internal Stylesheet */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(180deg, #f4f8fc, #dce7f3); /* 淡蓝色渐变 */
+      color: #2e3a45;
+      background-attachment: fixed;
+    }
+    header {
+      background: linear-gradient(90deg, #dce2dd, #c9d5d0); /* 雾霾蓝 + 豆沙绿柔混色 */
+      color: #2f2f2f;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #c7cec8;
+      background-image: url('soft-illustration-header.png'); /* 柔色插图背景 */
+      background-size: cover;
+      background-position: center;
+      opacity: 0.95;
+    }
+    nav a {
+      margin: 0 12px;
+      color: #6d6d6d;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #2f2f2f;
+    }
+    .container {
+      width: 1200px;
+      margin: 0 auto;
+      padding: 20px 0;
+    }
+    .hero {
+      padding: 80px 0;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .card {
+      background: #ffffffdd;
+      padding: 24px;
+      border-radius: 16px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+      border-left: 6px solid #a8b8b0; /* 豆沙绿边框 */
+      backdrop-filter: blur(3px);
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: linear-gradient(90deg, #e4e8e1, #d6ddd6);
+      margin-top: 40px;
+      color: #4f5a55;
+      border-top: 1px solid #c7cec8;
+      background-image: url('soft-illustration-footer.png'); /* 柔色插图背景 */
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: right;
+      opacity: 0.96;
+    }
+  </style>
+</head>
+<body>
+  <!-- GenAI assistance declaration -->
+  <!--
+    GenAI assistance was used.
+    Tool: ChatGPT
+    Prompt: "Create initial structure and design for index page."
+    Date: 2025-12-05
+  -->
+
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero container">
+    <h2>Hello! I'm [Your Name].</h2>
+    <p>This is my personal website built for CS 105 Assignment 3.</p>
+  </section>
+
+  <section class="container">
+    <h2>Featured Sections</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>About Me</h3>
+        <p>Learn more about who I am and what I do.</p>
+      </div>
+      <div class="card">
+        <h3>Projects</h3>
+        <p>See the work I've created and things I've built.</p>
+      </div>
+      <div class="card">
+        <h3>Contact</h3>
+        <p>Reach out through email or social links.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name</p>
+  </footer>
+</body>
+</html>
